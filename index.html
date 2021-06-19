@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+
+    <link rel="stylesheet" href="./scss/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">MYSELF</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#introSection">Intro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#featuresSection">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviewsSection">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallerySection">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- header -->
+    <header id="header" class="jumbotron text-center text-white ">
+        <div class="container">
+            <h1>LUISE CHANG</h1>
+            <p>Be yourself; everyone else is already taken.</p>
+        </div>
+    </header>
+    <!-- intro -->
+    <section id="introSection" class="py-5">
+        <h1 class="section-title text-center text-primary mb-5">Intro</h1>
+        <div class="container">
+            <div class="row justify-content-center py-5">
+                <div class="col-sm-2 col-6">
+                    <img class="w-100 rounded-circle" src="../img/mirror.jpg" alt="user photo">
+                </div>
+                <div class="col-sm-6 col-8">
+                    <h3 class="title">Hey, It's Luise!</h3>
+                    <p>我是位樂觀積極喜歡冒險的女生，有數個從事教學工作的經驗，發現非自身興趣所在，因而選擇轉行。<br>
+                        過去的一年內，投入自主學習，參與韌體程式設計師的課程，從中習得多個程式語言。對網頁設計有很大的興趣，也正在學習Photoshop和illustrator，課程中我們小組製作智慧停車場的專題，而我主要負責網頁製作的部分，從中嚐到小小的成就感，希望能往這方面發展事業。<br>
+                        雖然一切都還在努力精進中，希望還請各方多多指教！
+                    </p>
+                </div>
+            </div>
+    </section>
+    <!-- features -->
+    <section id="featuresSection" class="py-5 bg-secondary text-white">
+        <h1 class="text-center ">WORK-EXPERIENCE</h1>
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="２"></li>
+                <li data-target="#carouselId" data-slide-to="３"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <!-- 第一頁 內容 -->
+                    <div class="row justify-content-center py-5">
+                        <div class="col-sm-6 col-8">
+                            <h3 class="title">1.物聯網應用工程</h3>
+                            <h4 class="name">勞動部發展署。產業新尖兵計畫</h4>
+                            <h5>2020年12月~2020年4月</h5>
+                            <p>由勞動部發展署開設的產業新尖兵計畫 - 物聯網應用工程師班，透過400個小時的培訓，使學員有能力成為產業相關的工程師。課程中有用到C語言、HTML、JavaScript
+                                、Python等程式語言及Raspberry pie 和 LCD板的硬體應用，雖然還很生疏，即使課程結束仍有在自我進修，努力熟練中。
+                                此次培訓中我們組別做的專題是－智慧停車場，而我主要負責做網頁設計，用到HTML 、CSS 、SVG、JavaScript AJAX 及Database
+                                等技術，用來建置停車繳費系統和搜尋停車位置系統的網頁。在製作過程中，發現我對web設計很有興趣，爲了能更好的建構前端介面，也正在學習Photoshop 和 AI的程式應用。
+                                在這將盡一年的空白期，很幸運的找到未來想做的事－工程師。</p>
+                        </div>
+                    </div>
+                    <!-- 第一頁 內容 結束 -->
+                </div>
+                <div class="carousel-item">
+                    <!-- 第二頁 內容 -->
+                    <div class="row justify-content-center py-5">
+                        <div class="col-sm-6 col-8">
+                            <h3 class="title">2.安親班老師</h3>
+                            <h4 class="name">快樂瑪麗安美語補習班</h4>
+                            <h5>2019年7月~2020年1月</h5>
+                            <p>指導約莫20位小朋友，需要檢查並教導小朋友寫回家作業，對於學業內容中較弱的部分需要幫忙加強輔導，曾經指導數位小朋友將主科成績從不及格提升到80、90分。帶班之餘，也需要從事行政上的工作，舉凡招生及家長接待亦都是工作內容之一。在寒暑假時，需要規劃冬夏令營的課程並教學授課，初次嘗試用自己所學的德文，規劃互動課程提升小朋友的興趣，成功讓小朋友有趣的體驗了第二外語，我也從中學到如何寫文案及教案。
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 第二頁 內容 結束 -->
+                </div>
+                <div class="carousel-item">
+                    <!-- 第三頁 內容 -->
+                    <div class="row justify-content-center py-5">
+                        <div class="col-sm-6 col-8">
+                            <h3 class="title">3.德文輔導員</h3>
+                            <h4 class="name">中國文化大學。教學輔導計畫</h4>
+                            <h5>2018年11月~2019年4月</h5>
+                            <p>這是一個學校舉辦的計畫，由高年級學生輔導在課業上需要加強的低年級生。為了準備教學上的內容，需要閱讀多個德文網站，並整理過往的筆記，用來指導低年級生課業上的問題。執行工作時，除了解決了低年級生的問題，並大大的提升學習德文的動機，亦有學弟妹努力念書後，成功得到赴德國交換的機會。
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 第三頁 內容 結束 -->
+                </div>
+                <div class="carousel-item">
+                    <!-- 第四頁 內容 -->
+                    <div class="row justify-content-center py-5">
+                        <div class="col-sm-6 col-8">
+                            <h3 class="title">4.外場工讀生</h3>
+                            <h4 class="name">西提餐飲</h4>
+                            <h5>2016年7月~2016年9月</h5>
+                            <p>平時主要從事餐廳外場服務人員的工作，也需要製作飲料甜點。外場工讀的做內容看似簡單，也是有許多挑戰性的，需要在幾秒的時機內記住多達5桌的訂單，並快速在腦中規劃上餐的順序，已達到最有效率的服務，送餐的同時即便腦中還有大量的訂單要處理，也需要面不改色地解決客人提出的種種要求，是個需要強大身心的工作。
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 第四頁 內容 結束 -->
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- about -->
+    <section id="reviewsSection" class="py-5 bg-light">
+        <div class="container">
+            <h1 class="section-title mb-5 text-center text-secondary">ABOUT ME</h1>
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-8">
+                    <button data-toggle="collapse" data-target="#article1" class="btn btn-primary">work-skill</button>
+                    <button data-toggle="collapse" data-target="#article2" class="btn btn-primary">Language</button>
+                    <article class="my-3 collapse show" id="article1">
+                        <h3>work-skill</h3>
+                        <p>一般辦公室應用：word、powerpoint、excel<br>
+                            程式語言相關：HTML、CSS、JS、SVG、C語言、Python
+                        </p>
+                    </article>
+                    <article class="my-3 collapse" id="article2">
+                        <h3>language</h3>
+                        <p>
+                            英文：IELST 5.5<br>
+                            德文：GOETHE-ZERTIFIKAT B1<br>
+                            中文：TQUK level3 華語文教學證書
+                        </p>
+                    </article>
+                    <nav class="nav nav-pills">
+                        <a data-toggle="tab" class="nav-link active" href="#article3">EDUCATION BACKGROUND</a>
+                        <a data-toggle="tab" class="nav-link" href="#article4">CERTIFICATES</a>
+                        <a data-toggle="tab" class="nav-link" href="#article5">PORTFOLIO</a>
+                    </nav>
+                    <div class="tab-content">
+                        <article id="article3" class="tab-pane active my-3">
+                            <h3>EDUCATION BACKGROUND</h3>
+                            <p>＊畢業於中國文化大學德國語文學系，擁有德文B1能力檢定證明。<br>
+                                ＊德文系學會副會長－籌辦許多系上大大小小的活動，例如：迎新宿營、聖誕晚會、外語學院聯合外語週等大型活動，習得活動策劃執行、協調內外部人員與廠商洽談及時間控管等能力。<br>
+                                ＊學生會美編－主要負責學生會主辦活動的美編設計、活動場佈及道具製作，亦有製作學生會刊，習得編輯軟體的基本應用及撰寫文案的技巧。
+                            </p>
+                        </article>
+                        <article id="article4" class="tab-pane my-3">
+                            <h3>CERTIFICATES</h3>
+                            <div id="imageCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#imageCarousel" data-slide-to="1"></li>
+                                    <li data-target="#imageCarousel" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <!-- page1 -->
+                                    <div class="carousel-item active">
+                                        <h5>英文：IELST</h5>
+                                        <img src="../img/ielst.jpg" class="w-100">
+                                    </div>
+                                    <!-- page2 -->
+                                    <div class="carousel-item">
+                                        <h5>德文：GOETHE-ZERTIFIKAT</h5>
+                                        <img src="../img/deutsch.jpg" class="w-100">
+                                    </div>
+                                    <!-- page3 -->
+                                    <div class="carousel-item">
+                                        <h5>中文：TQUK</h5>
+                                        <img src="../img/chinese.jpg" class="w-100">
+                                    </div>
+                                </div>
+                                <!-- 上一頁 -->
+                                <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <!-- 下一頁 -->
+                                <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </article>
+                        <article id="article5" class="tab-pane my-3">
+                            <h3>PORTFOLIO</h3>
+                            <h5>智慧停車場</h5>
+                            <p>此專題是我們嘗試模擬出現今智慧停車場為了解決傳統停車場的不便，利用物聯網應用來改善老舊的問題。例如：入場等待時間過長、票卡容易遺失、找不到空位在哪和忘記車子停在哪等問題，而增設了場外及線上剩餘車位告示、車牌辨識系統、停車空位導引及智慧繳費尋車系統。<br>
+                                我負責製作智慧繳費尋車系統，用到HTML、CSS 、JavaScript 、SVG等語言來設計出使用者面板，並使用AJAX連結資料庫存提取停車資訊。<br>
+                                下方GitHub連結，內有此專題我負責的程式碼和PPT介紹。
+                            </p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5m3a20z1OGA"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery -->
+    <section id="gallerySection">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="galleryImage1" class="col-md-3 col-sm-6">
+                </div>
+                <div id="galleryImage2" class="col-md-3 col-sm-6">
+                </div>
+                <div id="galleryImage3" class="col-md-3 col-sm-6">
+                </div>
+                <div id="galleryImage4" class="col-md-3 col-sm-6">
+                </div>
+                <div id="galleryImage5" class="col-md-3 col-sm-6">
+                </div>
+                <div id="galleryImage6" class="col-md-3 col-sm-6">
+                </div>
+                <div id="galleryImage7" class="col-md-3 col-sm-6">
+                </div>
+                <div id="galleryImage8" class="col-md-3 col-sm-6">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer" class="pt-5 bg-secondary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-5 footer-list">
+                    <h4>Contact Me</h4>
+                    <a rel="noopener" target="_blank" href="mailto:cc860218tw@gmail.com">cc860218tw@gmail.com</a>
+                </div>
+                <div class="col-md-4 col-sm-5 footer-list">
+                    <h4>Another Information</h4>
+                    <a rel="noopener" target="_blank" href="https://github.com/Luise5678">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end bg-dark mt-5 py-2">
+            <p class="text-center">&copy; Copy right 2021</p>
+        </div>
+    </footer>
+
+
+
+
+    <!-- jquery.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- popper.min.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap.min.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!-- 連結網頁主程式 -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

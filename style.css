@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+/* naverbar */
+.navbar {
+    box-shadow: 0 3px 18px rgba(0,0,0, .11);
+}
+/* header */
+#header {
+    border-radius: 0px;
+    margin-bottom: 0px;
+    background-image: url("../img/soulnight.JPG");
+    background-size: cover;
+    background-position: center top;
+}
+/* intro */
+/* features */
+/* about */
+.about-box {
+    border-radius: 15px;
+    margin-bottom: 15px;
+    transition: all .5s ease-out;
+    padding: 15px 15px;
+    text-align: center;
+}
+.about-box:hover {
+    background: white;
+    box-shadow: 0px 22px 22px rgba(0,0,0,.25);
+}
+.about-me {
+    color: rgb(117, 178, 197);
+}
+/* gallery */
+[id^='galleryImage'] {
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    filter: grayscale(100%);
+    transition: all .5s ease;
+}
+
+[id^='galleryImage']>.gallery-text {
+    color: white;
+    font-weight: 700;
+    text-shadow: 0 8px 10px rgba(0, 0, 0, .5);
+    text-align: center;
+    transition: all .5s ease;
+}
+
+[id^='galleryImage']:hover {
+    filter: grayscale(0%);
+}
+
+[id^='galleryImage']:hover>.gallery-text {
+    
+}
+
+/* 放入背景圖片 */
+
+#galleryImage1 {
+    background-image: url("../img/vietnam.JPG");
+}
+
+#galleryImage2 {
+    background-image: url("../img/warm.jpg");
+}
+
+#galleryImage3 {
+    background-image: url("../img/soulhouse.JPG");
+}
+
+#galleryImage4 {
+    background-image: url("../img/hokkaido.JPG");
+}
+
+#galleryImage5 {
+    background-image: url("../img/island.JPG");
+}
+
+#galleryImage6 {
+    background-image: url("../img/dive.JPG");
+}
+
+#galleryImage7 {
+    background-image: url("../img/wall.jpg");
+}
+
+#galleryImage8 {
+    background-image: url("../img/weihnachten.JPG");
+}
+/* footer */
+#goBackBtn {
+    width: 40px;
+    height: 40px;
+    border:none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1000;
+    border-radius: 50%;
+}
